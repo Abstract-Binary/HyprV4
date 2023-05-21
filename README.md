@@ -8,7 +8,7 @@ You can grab the config files and install packages by hand with the command list
 
 Do this ONLY if you need Nvidia support (do this first)
 ```
-yay -S linux-headers nvidia-dkms qt5-wayland qt5ct libva libva-nvidia-driver-git
+paru -S linux-headers nvidia-dkms qt5-wayland qt5ct libva libva-nvidia-driver-git
 
 Add modules: nvidia nvidia_modeset nvidia_uvm nvidia_drm to /etc/mkinitcpio.conf
 
@@ -22,7 +22,7 @@ reboot!
 Now install the below for Hyprland
 
 ```
-yay -S hyprland kitty jq mako waybar-hyprland swww swaylock-effects \
+paru -S hyprland kitty jq mako waybar-hyprland swww swaylock-effects \
 wofi wlogout xdg-desktop-portal-hyprland swappy grim slurp thunar \
 polkit-gnome python-requests pamixer pavucontrol brightnessctl bluez \
 bluez-utils blueman network-manager-applet gvfs thunar-archive-plugin \
